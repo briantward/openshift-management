@@ -3,7 +3,7 @@ kind: ClusterRoleBinding
 metadata:
   labels:
     template: cronjob-prune-images
-  name: system:image-pruners
+  name: prune-images
 roleRef:
   name: cluster-admin
 subjects:

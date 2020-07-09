@@ -1,6 +1,6 @@
 failed_jobs_history_limit: "5"
-image: registry.access.redhat.com/openshift3/jenkins-slave-base-rhel7
-image_tag: v3.11
+image: registry.redhat.io/openshift4/ose-cli
+image_tag: v4.4
 job_name: cronjob-prune-resources
 job_service_account: pruner
 keep_complete: "5"
